@@ -1,0 +1,13 @@
+# 统一换行符：仓库内用 LF，检出为 CRLF（Windows 习惯）
+* text=auto eol=crlf
+
+# PowerShell 脚本保持 CRLF，避免某些解析器的兼容问题
+*.ps1 text eol=crlf
+
+# 批处理与 VBS 必须 CRLF
+*.bat text eol=crlf
+*.vbs text eol=crlf
+
+# 图片按二进制处理
+*.png binary
+*.ico binary
