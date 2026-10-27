@@ -1,0 +1,10 @@
+# 忽略调试产物
+*.png
+!docs/screenshots/*.png
+*.log
+*.bak
+*.tmp
+
+# 系统文件
+Thumbs.db
+desktop.ini
